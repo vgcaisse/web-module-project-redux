@@ -33,7 +33,7 @@ const MovieList = (props)=> {
     );
 }
 
-export function mapedState(state) {
+const mapedState=(state)=> {
     return ({
         movies: state.movies
     })
